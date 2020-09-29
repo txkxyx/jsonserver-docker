@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Math",
+            "price": 1000
+        },
+        {
+            "id": 2,
+            "name": "Science",
+            "price": 1200
+        },
+        {
+            "id": 3,
+            "name": "Chemical",
+            "price": 1400
+        },
+        {
+            "id": 4,
+            "name": "Java",
+            "price": 1000
+        }
+    ]
+}

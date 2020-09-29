@@ -1,0 +1,15 @@
+{
+    "name": "json-server-docker",
+    "version": "1.0.0",
+    "description": "Json Server on Docker",
+    "author": "t.okkan@example.com",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "json-server": "^0.16.1",
+        "body-parser": "^1.19.0",
+        "jsonwebtoken": "^8.5.1"
+    }
+}

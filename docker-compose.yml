@@ -1,0 +1,17 @@
+version: "3"
+services:
+  json-server:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - ./server:/data/server:delegated
+    tty: true
+    working_dir: /data/server
+    command: sh -c "yarn install && yarn start"
+    container_name: jsonserver-docker
+    ports:
+      - "33000:33000"
