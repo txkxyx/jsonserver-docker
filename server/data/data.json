@@ -1,24 +1,56 @@
 {
-    "items": [
-        {
-            "id": 1,
-            "name": "Math",
-            "price": 1000
-        },
-        {
-            "id": 2,
-            "name": "Science",
-            "price": 1200
-        },
-        {
-            "id": 3,
-            "name": "Chemical",
-            "price": 1400
-        },
-        {
-            "id": 4,
-            "name": "Java",
-            "price": 1000
-        }
-    ]
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Java",
+      "body": "Java Beans",
+      "post": "2020/10/01",
+      "userid": 1
+    },
+    {
+      "id": 2,
+      "title": "Python",
+      "body": "Python3.10",
+      "post": "2020/10/04",
+      "userid": 1
+    },
+    {
+      "id": 3,
+      "title": "JavaScript",
+      "body": "Vue.js",
+      "post": "2020/10/10",
+      "userid": 2
+    },
+    {
+      "id": 4
+    },
+    {
+      "title": "Java",
+      "body": "Java Beans",
+      "post": "2020/10/01",
+      "userid": 1,
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "user one",
+      "email": "one@example.com",
+      "password": "userone"
+    },
+    {
+      "id": 2,
+      "name": "user two",
+      "email": "two@example.com",
+      "password": "usertwo"
+    },
+    {
+      "title": "Java",
+      "body": "Java Beans",
+      "post": "2020/10/01",
+      "userid": 1,
+      "id": 3
+    }
+  ]
 }

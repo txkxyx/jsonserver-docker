@@ -1,14 +1,11 @@
 version: "3"
 services:
   json-server:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile
-    environment:
-      - NODE_ENV=production
-      - CHOKIDAR_USEPOLLING=true
     volumes:
-      - ./server:/data/server:delegated
+      - ./server:/data/server
     tty: true
     working_dir: /data/server
     command: sh -c "yarn install && yarn start"
