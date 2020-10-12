@@ -20,16 +20,6 @@
       "body": "Vue.js",
       "post": "2020/10/10",
       "userid": 2
-    },
-    {
-      "id": 4
-    },
-    {
-      "title": "Java",
-      "body": "Java Beans",
-      "post": "2020/10/01",
-      "userid": 1,
-      "id": 5
     }
   ],
   "users": [
@@ -44,13 +34,6 @@
       "name": "user two",
       "email": "two@example.com",
       "password": "usertwo"
-    },
-    {
-      "title": "Java",
-      "body": "Java Beans",
-      "post": "2020/10/01",
-      "userid": 1,
-      "id": 3
     }
   ]
 }
